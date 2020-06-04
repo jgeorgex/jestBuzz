@@ -39,3 +39,15 @@ test('returns fizz if input is 12', () => {
 test('returns fizzbuzz if input is 15', () => {
   expect(fizzBuzz(15)).toBe('fizzbuzz');
 });
+
+test('returns fizzbuzz if input is 30', () => {
+  expect(fizzBuzz(30)).toBe('fizzbuzz');
+});
+
+test('returns 31 if input is 31', () => {
+  expect(fizzBuzz(31)).toBe(31);
+});
+
+test('returns buzz if input is 50', () => {
+  expect(fizzBuzz(50)).toBe('buzz');
+});
