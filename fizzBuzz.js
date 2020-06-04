@@ -1,4 +1,9 @@
 function fizzBuzz(number) {
-  return number;
+  if (number === 3) {
+    return 'fizz';
+  } else {
+    return number;
+  }
 }
+
 module.exports = fizzBuzz;
