@@ -35,3 +35,7 @@ test('returns buzz if input is 10', () => {
 test('returns fizz if input is 12', () => {
   expect(fizzBuzz(12)).toBe('fizz');
 });
+
+test('returns fizzbuzz if input is 15', () => {
+  expect(fizzBuzz(15)).toBe('fizzbuzz');
+});
