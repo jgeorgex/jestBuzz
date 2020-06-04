@@ -20,6 +20,14 @@ test('returns buzz if input is 5', () => {
   expect(fizzBuzz(5)).toBe('buzz');
 });
 
-test('returns 6 if input is 6', () => {
+test('returns fizz if input is 6', () => {
   expect(fizzBuzz(6)).toBe('fizz');
+});
+
+test('returns fizz if input is 9', () => {
+  expect(fizzBuzz(9)).toBe('fizz');
+});
+
+test('returns buzz if input is 10', () => {
+  expect(fizzBuzz(10)).toBe('buzz');
 });
